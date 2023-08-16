@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _HAND_H_
+#define _HAND_H_
+
 #include "Card.h"
 
 namespace GameLocic{
@@ -12,3 +14,5 @@ public:
 };
 
 }
+
+#endif // !_HAND_H_

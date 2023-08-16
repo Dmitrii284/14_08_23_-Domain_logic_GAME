@@ -1,10 +1,15 @@
-#pragma once
+#ifndef _FIELD_H_
+#define _FIELD_H_
 
 
-class Field // Поле
-{
-private:
+namespace GameLocic {
 
-public:
+	class Field // Поле
+	{
+	private:
 
-};
+	public:
+
+	};
+}
+#endif // !_FIELD_H_

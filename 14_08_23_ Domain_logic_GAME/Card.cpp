@@ -1,4 +1,5 @@
 #include "Card.h"
+#include"Facade.h"
 
 namespace GameLocic {
 

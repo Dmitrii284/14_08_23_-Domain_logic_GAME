@@ -1,8 +1,12 @@
-#pragma once
+#ifndef _PLAYER_H_
+#define _PLAYER_H_
+
+
 #include"Rules.h"
 #include"Hand.h"
 #include"Field.h"
 #include<map>
+
 
 namespace GameLocic {
 
@@ -15,3 +19,5 @@ namespace GameLocic {
 		void Walk(Hand& hand);
 	};
 }
+
+#endif // !_PLAYER_H_
